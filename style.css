@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.bio-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio-container h1 {
+    color: #333;
+}
+
+.bio-container p {
+    font-size: 1.1em;
+}
+
+.bio-container form {
+    margin-top: 20px;
+}
+
+.bio-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.bio-container input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.bio-container button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bio-container button:hover {
+    background-color: #4cae4c;
+}
